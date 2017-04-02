@@ -1,3 +1,7 @@
+body {
+    background-color: #bfbebe;
+}
+
 .axis line,
 .axis path {
     stroke: black;
@@ -7,4 +11,20 @@
 
 .axis text {
     font-size: 12px;
+}
+
+#tooltip {
+    position: absolute;
+    /*left: 20px; 
+            top:  100px; */
+    background: #fff;
+    width: 150px;
+    height: auto;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#tooltip.hidden {
+    display: none;
 }
